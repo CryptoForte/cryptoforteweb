@@ -16,19 +16,19 @@ const Navbar = () => {
                 <nav aria-label="Global" className="hidden md:block">
                 <ul className="flex items-center gap-6 text-sm">
                     <li>
-                    <a className="text-secondary hover:text-red-500" href="#"> Home </a>
+                        <Link to='/' className="text-secondary hover:text-red-500" > Home </Link>
                     </li>
 
                     <li>
-                    <a className="text-secondary hover:text-red-500" href="#"> Events </a>
+                        <Link to='/events' className="text-secondary hover:text-red-500"> Events </Link>
                     </li>
 
                     <li>
-                    <a className="text-secondary hover:text-red-500" href="#"> About Us </a>
+                        <Link to='/about-us' className="text-secondary hover:text-red-500" > About Us </Link>
                     </li>
 
                     <li>
-                    <a className="text-secondary hover:text-red-500" href="#"> Contents </a>
+                        <Link to='/contents' className="text-secondary hover:text-red-500" > Contents </Link>
                     </li>
                 </ul>
                 </nav>
